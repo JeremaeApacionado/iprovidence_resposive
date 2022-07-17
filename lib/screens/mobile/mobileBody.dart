@@ -9,9 +9,9 @@ class MobileBody extends StatelessWidget {
       backgroundColor: Color(0xFFc7b5b6),
       body: Column(
         children: [
-          SizedBox(height: 80),
+          SizedBox(height: 100),
           Padding(
-            padding: EdgeInsets.only(left: 50, top: 80),
+            padding: EdgeInsets.only(left: 50, top: 100),
               // aspectRatio: 10 / 4,
               child: Container(
                 height: 300,

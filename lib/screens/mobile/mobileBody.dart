@@ -14,17 +14,16 @@ class MobileBody extends StatelessWidget {
             padding: EdgeInsets.only(left: 35, top: 20),
               // aspectRatio: 10 / 4,
               child: Container(
-                child: TextField (
-                  decoration: InputDecoration(
-                      border: InputBorder.none,
-                      labelText: 'Enter Username',
-                      hintText: 'Enter Your Username'
-                  ),
-                ),
-
                 height: 400,
                 width: 350,
                 color:  Colors.white,
+                child: TextField (
+                  decoration: InputDecoration(
+                      border: InputBorder.none,
+                      labelText: 'Username',
+                      hintText: 'Enter Your Username'
+                  ),
+                ),
 
               ),
             ),

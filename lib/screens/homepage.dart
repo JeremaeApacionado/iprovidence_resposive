@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iprovidence_reponsive/screens/responsive/desktopBody.dart';
-import 'package:iprovidence_reponsive/screens/responsive/mobileBody.dart';
+import 'package:iprovidence_reponsive/screens/mobile/mobileBody.dart';
 import 'package:iprovidence_reponsive/screens/responsive/responsive_layout.dart';
 import 'package:iprovidence_reponsive/screens/responsive/tabletBody.dart';
 

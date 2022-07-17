@@ -6,7 +6,9 @@ class DesktopBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF5e0c13),
+      backgroundColor: Color(0xFFc7b5b6),
     );
   }
 }
+
+

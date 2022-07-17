@@ -11,22 +11,32 @@ class MobileBody extends StatelessWidget {
         children: [
           SizedBox(height: 80),
           Padding(
-            padding: EdgeInsets.only(left: 35, top: 20),
+            padding: EdgeInsets.only(left: 50, top: 80),
               // aspectRatio: 10 / 4,
               child: Container(
-                height: 400,
-                width: 350,
+                height: 300,
+                width: 400,
                 color:  Colors.white,
-                child: TextField (
+                child: Column(
+                children:[
+                  TextField (
                   decoration: InputDecoration(
                       border: InputBorder.none,
                       labelText: 'Username',
                       hintText: 'Enter Your Username'
                   ),
                 ),
-
+                  TextField (
+                    decoration: InputDecoration(
+                        border: InputBorder.none,
+                        labelText: 'Password',
+                        hintText: 'Enter Your Password'
+                    ),
+                  ),
+                ],
+                ),
               ),
-            ),
+              ),
       ],
       ),
     );
